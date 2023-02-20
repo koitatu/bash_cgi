@@ -5,7 +5,7 @@ echo "Content-type: text/plain;charset=UTF-8"
 echo
 #POSTメソッドの場合にはread paramで受け取る
 read param
-echo "$param" | nkf --url-input
+echo "$param" | nkgf --url-input
 
 declare -a array=()
 mapfile -t array <<< $(echo $param |sed 's|&|\n|g')

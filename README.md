@@ -1,0 +1,2 @@
+# bash_cgi
+bashでcgiを実行して、JOBをキックするニッチなリポジトリ
