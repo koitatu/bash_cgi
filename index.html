@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<META HTTP-EQuiv="Content-Type" Content="text/html; charset=UTF-8">
+<TITLE>CGI Sample</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+
+<CENTER>
+  <FONT SIZE=+2> <I><B><FONT COLOR=#007744>CGI Sample</FONT></b></I></FONT>
+<BR>
+<BR>
+  <TABLE WIDTH=80%%>
+    <TR>
+      <TD COLSPAN=2>
+        <FORM METHOD="post" ACTION="/cgi-bin/echo.cgi">
+          <p><FONT COLOR=#0000BB>LDAP ID：</FONT>
+            <INPUT TYPE="text" NAME="uid" required>
+            <BR>
+          </p>
+          <p><FONT COLOR=#0000BB>名字：</FONT>
+            <INPUT TYPE="text" NAME="sn" required>
+            <BR>
+          </p>
+          <p><FONT COLOR=#0000BB>名前：</FONT>
+            <INPUT TYPE="text" NAME="givenName" required>
+            <BR>
+          </p>
+          <p><FONT COLOR=#0000BB>メールアドレス：</FONT>
+            <INPUT TYPE="text" NAME="mail" required>
+            <BR>
+          </p>
+<!--          <p> <font color="#0000BB">性別</font>：
+            <input type="checkbox" name="Gender" value="male">
+            男 　　　　
+            <input type="checkbox" name="Gender" value="female">
+            女</p>
+          <p><FONT COLOR=#0000BB>説明：</FONT><BR>
+            <TEXTAREA NAME="Contents" ROWS=10 COLS=50></TEXTAREA>
+            <BR>
+          </p>  -->
+          <CENTER>
+            <INPUT TYPE="submit" VALUE="登録">
+            <INPUT TYPE="reset" VALUE="クリア">
+          </CENTER>
+        </FORM>
+      </TD>
+    </TR>
+  </TABLE>
+</CENTER>
+
+<P>
+<CENTER>
+</CENTER>
+
+</BODY>
+</HTML>
