@@ -28,3 +28,4 @@ echo "mail is" "${mail}"
 echo "今の時刻は $(date)"
 
 ./check_args.sh "${uid}" "${sn}" "${gn}" "${mail}" 
+ 
